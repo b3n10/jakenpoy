@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class Jep {
+public class JackEnPoy {
   public static void main(String[] args) {
     /*
      * rock > scissor
@@ -14,6 +14,8 @@ public class Jep {
     int user_input;
     int cp_num, win = 0;
     boolean game = true;
+
+    System.out.println("Rock Paper Scissors Game !");
 
     while (game) {
       try {
